@@ -1,0 +1,42 @@
+#Search {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+}
+
+.grid-center {
+  justify-self: center;
+  align-self: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.underline-input {
+  align-self: flex-end;
+  font-size: 24pt;
+  width: 40vw;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  margin-right: 3vw;
+}
+
+.underline-input:focus {
+  border-bottom: 1px solid blue;
+}
+
+.search-button {
+  align-self: flex-end;
+  font-size: 24pt;
+  width: 10vw;
+  padding: 10pt;
+  background: rgb(173, 216, 230);
+  border: none;
+  outline: none;
+}
+
+.search-button:hover {
+  background: rgb(110, 163, 180)
+}
