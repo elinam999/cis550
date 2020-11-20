@@ -24,19 +24,21 @@
 }
 
 .underline-input:focus {
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid rgb(110, 163, 180);
 }
 
 .search-button {
+  cursor: pointer;
   align-self: flex-end;
   font-size: 24pt;
   width: 10vw;
-  padding: 10pt;
+  padding: 1vh;
+  border-radius:0.5vh;
   background: rgb(173, 216, 230);
   border: none;
   outline: none;
 }
 
 .search-button:hover {
-  background: rgb(110, 163, 180)
+  background: rgb(110, 163, 180);
 }
